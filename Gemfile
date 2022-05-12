@@ -66,6 +66,6 @@ group :development do
   # gem "spring"
 end
 group :test do
-  gem 'capybara', '~>2.3.0'
+  gem 'capybara', '~>3.37', '>=3.37.1'
 end
 
