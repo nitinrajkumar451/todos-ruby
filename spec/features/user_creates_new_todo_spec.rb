@@ -2,7 +2,7 @@ require "rails_helper"
 
 feature "user creates a new todo spec" do
     scenario "fills in todo and adds it" do
-        visit root_path
+        sign_in
         click_on "Add a new todo"
         fill_in "Title", with: "Remember card"
         click_on "Submit"
